@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="flex flex-col space-y-2 text-sm text-white">
                         <a rel="noopener noreferrer" href="#">About US</a>
                         <a rel="noopener noreferrer" href="#">Our Team</a>
-                        <a rel="noopener noreferrer" href="#">Products</a>
+                        <a rel="noopener noreferrer" href="#">Productsss</a>
                         <a rel="noopener noreferrer" href="#">Contact</a>
                         {/* <a rel="noopener noreferrer" href="#">Optimizing for Production</a>
                         <a rel="noopener noreferrer" href="#">Browser Support</a>
