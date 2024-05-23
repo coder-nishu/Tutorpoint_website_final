@@ -1,11 +1,20 @@
+import { FaLocationDot } from "react-icons/fa6";
 const Tuiton = () => {
     return (
         <div className="mt-16 container mx-auto gap-8 px-16 grid grid-cols-12">
             <div className="col-span-4">
                 <h1 className="text-2xl font-bold p-2">Advance Filter</h1>
                 <hr />
-                <p className="mt-4 mb-1 text-xl text-[#255ED6]  font-medium">Search</p>
+                <div>
+                    <p className="mt-4 mb-1 text-xl text-[#255ED6]  font-medium">Search</p>
                 <input type="text" placeholder="Type here" className="mb-4 input input-bordered w-full max-w-xs" />
+
+              <div className= "flex items-center ">
+              <FaLocationDot className="mt-4 mb-1"/>
+              <p className="mt-4 mb-1 text-xl text-[#255ED6]  font-medium">Location</p>
+              </div>
+                <input type="text" placeholder="Your prefered location" className="mb-4 input input-bordered w-full max-w-xs" />
+                </div>
                 <hr />
                 <div className="mt-4">
                     <p className="mt-4 mb-2 text-xl text-[#255ED6]  font-medium">Tution type</p>
