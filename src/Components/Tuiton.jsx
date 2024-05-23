@@ -1,4 +1,6 @@
 import { FaLocationDot } from "react-icons/fa6";
+import { FaSearch } from "react-icons/fa";
+
 const Tuiton = () => {
     return (
         <div className="mt-16 container mx-auto gap-8 px-16 grid grid-cols-12">
@@ -6,7 +8,10 @@ const Tuiton = () => {
                 <h1 className="text-2xl font-bold p-2">Advance Filter</h1>
                 <hr />
                 <div>
-                    <p className="mt-4 mb-1 text-xl text-[#255ED6]  font-medium">Search</p>
+                   <div className="flex items-center">
+                   <FaSearch className="mt-4 mb-1" />
+                   <p className="mt-4 mb-1 text-xl text-[#255ED6]  font-medium">Search</p>
+                   </div>
                 <input type="text" placeholder="Type here" className="mb-4 input input-bordered w-full max-w-xs" />
 
               <div className= "flex items-center ">
@@ -59,7 +64,7 @@ const Tuiton = () => {
                 <div className="mb-6 bg-slate-100 p-6 rounded-xl">
                     <div>
                         <div className="flex justify-between">
-                            <h1 className="mt-4 text-2xl font-bold">Raja Bazar, Firm gate, Dhaka</h1>
+                            <h1 className="mt-4 text-2xl font-bold"><FaLocationDot className="mt-4 mb-1"/>Raja Bazar, Firm gate, Dhaka</h1>
                             <div>
                                 <button className="mt-4 text-xl font-medium py-1 px-4 rounded  border-none bg-[#255ED6] text-white mr-4">Apply</button>
                             </div>
@@ -104,7 +109,7 @@ const Tuiton = () => {
                 <div className="mb-6 bg-slate-100 p-6 rounded-xl">
                     <div>
                         <div className="flex justify-between">
-                            <h1 className="mt-4 text-2xl font-bold">Raja Bazar, Firm gate, Dhaka</h1>
+                            <h1 className="mt-4 text-2xl font-bold"><FaLocationDot className="mt-4 mb-1"/>Kazipara, Mirpur, Dhaka</h1>
                             <div>
                                 <button className="mt-4 text-xl font-medium py-1 px-4 rounded  border-none bg-[#255ED6] text-white mr-4">Apply</button>
                             </div>
@@ -149,7 +154,7 @@ const Tuiton = () => {
                 <div className="mb-6 bg-slate-100 p-6 rounded-xl">
                     <div>
                         <div className="flex justify-between">
-                            <h1 className="mt-4 text-2xl font-bold">Raja Bazar, Firm gate, Dhaka</h1>
+                            <h1 className="mt-4 text-2xl font-bold"><FaLocationDot className="mt-4 mb-1"/>Raja Bazar, Firm gate, Dhaka</h1>
                             <div>
                                 <button className="mt-4 text-xl font-medium py-1 px-4 rounded  border-none bg-[#255ED6] text-white mr-4">Apply</button>
                             </div>

@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link,NavLink } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import { FiLogIn } from "react-icons/fi";
 const Navbar = () => {
     const Link = <>
         <li> <NavLink to='/'>Home</NavLink> </li>  
-        <li> <NavLink to='/tution'>Tution</NavLink> </li> 
-        <li> <NavLink to='/job'>Job</NavLink> </li> 
-        <li> <NavLink to='/course'>Courses</NavLink> </li>
+        <li> <NavLink to='/tution'>Tuition</NavLink> </li> 
+        <li> <NavLink to='https://www.figma.com/proto/EzUarMkSjrlOJiLNGD2riM/tutor?node-id=22-7598&t=QosEV9930iSvUbKg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=127%3A81&show-proto-sidebar=1/'>Job</NavLink> </li> 
+        
+        <li> <NavLink to='https://www.figma.com/proto/EzUarMkSjrlOJiLNGD2riM/tutor?node-id=22-7598&t=QosEV9930iSvUbKg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=127%3A81&show-proto-sidebar=1'>Courses</NavLink> </li>
     </>
     return (
-        <div className="navbar bg-base-100 relative z-10 container mx-auto">
+        <div className="navbar bg-base-10 relative z-10 bg-[#6fc7d8] container mx-auto">
             <div className="navbar-start">
                 {/* <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -19,7 +20,7 @@ const Navbar = () => {
                         {Link}
                     </ul>
                 </div> */}
-               <NavLink to="/"><p className="text-4xl font-bold">Tutor Point</p></NavLink>
+               <NavLink to="/"><p className="text-4xl font-bold"><img src="`{}" alt="" /> Tutor Point</p></NavLink>
                 
 
                
@@ -30,8 +31,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-2">
-                <a href="/teacherLogin"><button type="button" className="px-4 py-2 font-semibold border rounded border-gray-800 text-gray-800">Teacher Login</button></a>
-                <a href="/studentLogin"><button type="button" className="px-4 py-2 font-semibold border rounded border-gray-800 text-gray-800">Student Login</button></a>
+            <FiLogIn />
+                <a href="/teacherLogin"><button type="button" className="px-4 py-2 font-bold border rounded border-gray-800 text-gray-800">Teacher Login</button></a>
+                <FiLogIn />
+                <a href="/studentLogin"><button type="button" className="px-4 py-2 font-bold border rounded border-gray-800 text-gray-800">Student Login</button></a>
             </div>
 
         </div>

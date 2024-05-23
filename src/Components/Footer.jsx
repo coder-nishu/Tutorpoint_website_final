@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="p-6 mt-24 bg-[#255ED6] text-white">
+    <footer className="p-6 mt-24 bg-[#6fc7d8] text-gray-800">
       <div className="container grid grid-cols-3 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-3">
         <div className="flex flex-col mx-auto space-y-4">
           <h2 className="font-medium">Resources</h2>
-          <div className="flex flex-col space-y-2 text-sm text-white">
+          <div className="flex flex-col space-y-2 text-l font-semibold text-gray-800">
             <a rel="noopener noreferrer" href="#">
               About US
             </a>
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col space-y-4 mx-auto">
           <h2 className="font-medium">About Us</h2>
-          <div className="flex flex-col space-y-2 text-sm text-white">
+          <div className="flex flex-col space-y-2 text-l font-semibold text-gray-800">
             <p>
               TutorSheba.com is a platform where parents, students and tutors
               can easily connect with each other. We provide qualified
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col space-y-4 mx-auto">
           <h2 className="font-medium">Contact US</h2>
-          <div className="flex flex-col space-y-2 text-sm text-white">
+          <div className="flex flex-col space-y-2 text-l font-semibold text-gray-800">
             <p>contact: 01628311569</p>
             <p>Email: nishat1582@gmail.com</p>
             <p>Adress: Mirpur, Dhaka, Bangladesh</p>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div> */}
       </div>
       <div className="flex items-center justify-center px-6 pt-12 text-sm">
-        <span className="text-white">
+        <span className="text-gray-800 font-bold ">
           © Copyright 2024. All Rights Reserved by Nishat Abid.
         </span>
       </div>
