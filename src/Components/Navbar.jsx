@@ -10,7 +10,7 @@ const Navbar = () => {
         <li> <NavLink to='https://www.figma.com/proto/EzUarMkSjrlOJiLNGD2riM/tutor?node-id=22-7598&t=QosEV9930iSvUbKg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=127%3A81&show-proto-sidebar=1'>Courses</NavLink> </li>
     </>
     return (
-        <div className="navbar bg-base-10 relative z-10 bg-[#6fc7d8] container mx-auto">
+        <div className="navbar bg-base-10 relative z-10 bg-[#5AB2FF] container mx-auto">
             <div className="navbar-start">
                 {/* <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

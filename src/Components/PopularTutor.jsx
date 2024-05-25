@@ -19,7 +19,7 @@ const PopularTutor = () => {
                             <p className="text-lg font-normal">Daffodil International University</p>
                             <p className="text-lg font-bold">CSE</p>
                         </div>
-                        <button className="btn w-full bg-[#255ED6] text-white hover:text-black text-lg mt-4">View Details</button>
+                        <button className="btn w-full bg-[#5AB2FF] text-white hover:text-black text-lg mt-4">View Details</button>
                     </div>
                     <div className="mx-auto p-6 rounded-md shadow-md bg-gray-50  text-gray-900">
                         <img src={`${armanpic}`}  alt="" className="object-cover object-center w-full rounded-md h-64 bg-gray-500" />
@@ -29,7 +29,7 @@ const PopularTutor = () => {
                             <p className="text-lg font-normal">Daffodil International University</p>
                             <p className="text-lg font-bold">CSE</p>
                         </div>
-                        <button className="btn w-full bg-[#255ED6]  hover:text-black text-white text-lg mt-4">View Details</button>
+                        <button className="btn w-full bg-[#5AB2FF]  hover:text-black text-white text-lg mt-4">View Details</button>
                     </div>
                     <div className="mx-auto p-6 rounded-md shadow-md bg-gray-50 text-gray-900">
                         <img src={`${studentpic}`}  alt="" className="object-cover object-center w-full rounded-md h-64 bg-gray-500" />
@@ -39,7 +39,7 @@ const PopularTutor = () => {
                             <p className="text-lg font-normal">Daffodil International University</p>
                             <p className="text-lg font-bold">CSE</p>
                         </div>
-                        <button className="btn w-full bg-[#255ED6]  hover:text-black text-white text-lg mt-4">View Details</button>
+                        <button className="btn w-full bg-[#5AB2FF]  hover:text-black text-white text-lg mt-4">View Details</button>
                     </div>
                     <div className="mx-auto p-6 rounded-md shadow-md bg-gray-50 text-gray-900">
                         <img src={`${armanpic}`}  alt="" className="object-cover object-center w-full rounded-md h-64 bg-gray-500" />
@@ -49,7 +49,7 @@ const PopularTutor = () => {
                             <p className="text-lg font-normal">Daffodil International University</p>
                             <p className="text-lg font-bold">CSE</p>
                         </div>
-                        <button className="btn w-full bg-[#255ED6]  hover:text-black text-white text-lg mt-4">View Details</button>
+                        <button className="btn w-full bg-[#5AB2FF]  hover:text-black text-white text-lg mt-4">View Details</button>
                     </div>
                 </div>
             </div>
